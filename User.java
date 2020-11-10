@@ -1,12 +1,13 @@
 import java.sql.Date;
+import java.util.ArrayList;
+
 public class User {
 
-    public static void main(String[] args, Object[] Photo,String Adress) {
-        
     
     Date birthdate;
     int size ;
-    Object[] photo = Photo;
-    String adress= Adress; 
-    }
+    ArrayList<Photo> photos;
+    // Object[] photo = Photo;
+    String adress; 
+    
 }
